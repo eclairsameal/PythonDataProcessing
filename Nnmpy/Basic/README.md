@@ -10,6 +10,20 @@
 
   [Compare the speed of numpy array and python list](https://github.com/eclairsameal/PythonDataProcessing/blob/main/Nnmpy/Basic/compare_speed_array_list.ipynb)
 
-- Dimension - 維度
+## Dimension - 維度
   
   Numpy 可以處理多維數據， 而且 Numpy 底層的 C 讓它在多維數據上計算也非常快。
+  
+* Create data
+    * np.array()
+    * array.ndim
+* Adding data
+    * np.concatenate()
+    * np.expand_dims()
+* Merge data
+    * np.concatenate()
+    * np.vstack()
+    * np.hstack()
+* Observe patterns
+    * array.size
+    * array.shape
